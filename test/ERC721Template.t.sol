@@ -1,5 +1,5 @@
 // ERC721Template.t.sol
-// SPDX-License-Identifier: UNLICENSED
+// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
 import {Test, console} from "forge-std/Test.sol";
