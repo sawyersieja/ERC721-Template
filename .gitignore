@@ -2,11 +2,13 @@
 cache/
 out/
 lib/
+artifacts/
 
 # Ignores development broadcast logs
 !/broadcast
 /broadcast/*/31337/
 /broadcast/**/dry-run/
+broadcast/
 
 # Docs
 docs/
@@ -16,3 +18,8 @@ docs/
 
 # CI (0/1 checks failed thing)
 .github/workflows/
+
+remappings.txt
+
+.DS_Store
+*.swp
